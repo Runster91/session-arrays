@@ -1,4 +1,5 @@
 // ./js/index.js
+// https://codesandbox.io/s/brave-almeida-lxs3m6
 
 // VARIABLES
 const mike = "Mike";
@@ -35,3 +36,14 @@ console.log(str1);
 // INTERPOLACIÓN
 const str2 = `Esta es una oración ${word}.`;
 console.log(str2);
+
+// MÉTODOS DE ARREGLO
+
+// REDUCE
+const numeros = [2, 3, 5, 9];
+
+const sumarNumeros = numeros.reduce((acumulador, valorActual) => {
+  return acumulador + valorActual;
+}, 10);
+
+console.log(sumarNumeros);
